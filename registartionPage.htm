@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@<x.x.x>/dist/axios.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <form style="width: 500px;">
+        <fieldset>
+            <h1>Target Result</h1>
+            <fieldset>
+                <fieldset>
+                    <legend>Create your account</legend>
+                    <section>
+                        <label for="name">Full Name:</label>
+                        <br />
+                        <input style="width: 100%;" type="text" name="userName" id="name">
+                    </section>
+                    <br>
+                    <section>
+                        <label for="email">Email:</label>
+                        <br />
+                        <input style="width: 100%;" type="email" name="userEmail" id="email">
+                    </section>
+                    <br>
+                    <section>
+                        <label for="password">Password:</label>
+                        <br />
+                        <input style="width: 100%;" type="password" name="userPass" id="password" value="000000000">
+                    </section>
+                    <br>
+                    <section>
+                        <label for="phone">Phone:</label>
+                        <br />
+                        <input style="width: 100%;" type="text" name="userPhone" id="phone">
+                    </section>
+                    <br>
+                    <section>
+                        <label for="birth">Birth Date:</label>
+                        <br />
+                        <input style="width: 100%;" type="date" name="userBirth" id="birth">
+                    </section>
+                    <br>
+                    <section>
+                        <label for="country">Country:</label>
+                        <br />
+                        <select name="country" id="country" style="width: 100%;">
+                            <option>-Choose a country-</option>
+                            <option value="jo">Jordan</option>
+                            <option value="ir">Iraq</option>
+                            <option value="sa">Sudia Arabia</option>
+                            <option value="ku">Kuwait</option>
+                        </select>
+                    </section>
+                    <br>
+                    <section>
+                        <label for="contact">Preferred contact</label>
+                        <br>
+                        <input type="radio" name="email" id="contact"> Email
+                        <input type="radio" name="email" id="contact"> Phone
+                    </section>
+                    <br>
+                    <section>
+                        <input type="checkbox" name="terms">
+                        I accept the terms
+                    </section>
+                    <br>
+                    <input style="width: 100%;" type="submit">
+                </fieldset>
+            </fieldset>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
